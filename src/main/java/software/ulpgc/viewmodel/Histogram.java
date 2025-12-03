@@ -16,7 +16,7 @@ public class Histogram implements Iterable<Integer> {
         map.put(bin, count(bin) + 1);
     }
 
-    private Integer count(int bin) {
+    public Integer count(int bin) {
         return map.getOrDefault(bin, 0);
     }
 
