@@ -1,4 +1,4 @@
-package software.ulpgc.serialize;
+package software.ulpgc.application;
 
 import software.ulpgc.model.Movie;
 
@@ -9,7 +9,7 @@ public class TsvMovieParser implements MovieParser {
     }
 
     private Movie from(String[] split) {
-        return new Movie(split[2], toInt(split[7]));
+        return new Movie(split[2], toInt(split[5]), toInt(split[7]));
 
     }
 

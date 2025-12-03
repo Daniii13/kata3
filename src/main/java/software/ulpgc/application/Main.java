@@ -1,4 +1,4 @@
-package software.ulpgc;
+package software.ulpgc.application;
 
 import software.ulpgc.io.RemoteMovieLoader;
 import software.ulpgc.model.Movie;

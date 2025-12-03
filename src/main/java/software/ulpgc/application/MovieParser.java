@@ -1,4 +1,4 @@
-package software.ulpgc.serialize;
+package software.ulpgc.application;
 
 import software.ulpgc.model.Movie;
 

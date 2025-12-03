@@ -1,4 +1,4 @@
 package software.ulpgc.model;
 
-public record Movie(String title, int duration) {
+public record Movie(String title,int year, int duration) {
 }

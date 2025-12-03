@@ -1,10 +1,9 @@
 package software.ulpgc.io;
 
 import software.ulpgc.model.Movie;
-import software.ulpgc.serialize.TsvMovieParser;
+import software.ulpgc.application.TsvMovieParser;
 
 import java.io.*;
-import java.net.MalformedURLException;
 import java.net.URL;
 import java.net.URLConnection;
 import java.util.ArrayList;
